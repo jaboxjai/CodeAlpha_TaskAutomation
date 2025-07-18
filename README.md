@@ -5,7 +5,7 @@ This is a Python script that automates the process of fetching and extracting th
 Created as part of the **CodeAlpha Python Internship**
 
 #What It Does
-- Asks the user for a webpage URL (e.g., https://www.python.org)
+- Asks the user for a webpage URL (e.g., https://www.codealpha.tech/)
 - Fetches the page HTML using `requests`
 - Extracts the `<title>` tag using regular expressions (`re`)
 - Saves the extracted title to `webpage_title.txt`
