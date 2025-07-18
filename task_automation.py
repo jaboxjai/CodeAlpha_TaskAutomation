@@ -12,7 +12,7 @@ if match:
     title = match.group(1)
     with open("webpage_title.txt", "w", encoding='utf-8') as f:
         f.write("Title: " + title)
-    print("✅ Title saved successfully!")
+    print("Title saved successfully!")
     print("Extracted Title:", title)
 else:
-    print("❌ Could not find the <title> tag.")
+    print("Could not find the <title> tag.")
